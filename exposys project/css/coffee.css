@@ -1,0 +1,73 @@
+body
+{
+background-image: url(https://images.pexels.com/photos/18962834/pexels-photo-18962834/free-photo-of-cakes-and-coffee-served-on-a-table.jpeg?auto=compress&cs=tinysrgb&w=600);
+height:370vh;
+background-position: center;
+background-size: cover;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-style: italic;
+    text-transform: capitalize;
+}
+h3{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+.cakes
+{
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr)) ; 
+    color: white; 
+}
+.coffee
+{
+   display: grid;
+   grid-template-columns:repeat(auto-fit,minmax(320px,1fr)) ; 
+}
+#coffeevarieties
+{
+    text-transform: capitalize;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   
+
+}
+.icesoft
+{
+   display: grid;
+   grid-template-columns:repeat(auto-fit,minmax(320px,1fr)) ; 
+}
+#icecreamvarieties
+{
+    text-transform: capitalize;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+#softdrinks
+{
+    text-transform: capitalize;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+#cakevarieties
+{
+    text-transform: capitalize;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+}
+#cupcakevarieties
+{
+    text-transform: capitalize;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+}
+
+
